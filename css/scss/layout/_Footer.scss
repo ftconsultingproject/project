@@ -1,0 +1,105 @@
+@layer Footer {
+    .footer { 
+        background: #222;
+        padding-top: 7.7rem;
+        padding-bottom: 8.1rem;
+        .content { 
+            width: 100%;
+            max-width: 1095px;
+            margin: 0 auto;
+            .btn-request { 
+                display: block;
+                margin: 0 auto;
+                background: #bd080c;
+                font-size: 3.4rem;
+                color: #fff;
+                font-weight: 600;
+                padding: 2rem 5rem;
+                border-radius: 7rem;
+            }
+            .desc1 { 
+                font-size: 2.4rem;
+                color: #fff;
+                font-weight: 600;
+                text-align: center;
+                &.mt65 { 
+                    margin-top: 6.5rem;
+                }
+            }
+            .email { 
+                display: block;
+                font-size: 2.4rem;
+                color: #fff;
+                font-weight: 600;
+                text-align: center;
+                margin-top: 1rem;
+            }
+            .hr { 
+                display: block;
+                width: 100%;
+                height: 3px;
+                background: #515151;
+                margin-top: 6.4rem;
+                margin-bottom: 7.1rem;
+            }
+            h3 { 
+                font-size: 2.4rem;
+                color: #fff;
+                font-weight: 600;
+                text-align: center;
+            }
+            .sns-list { 
+                display: flex;
+                justify-content: center;
+                margin-top: 4rem;
+                gap: 4rem;
+                align-items: center;
+            }
+            
+        }
+        @media screen and (max-width: 768px) {
+            .content { 
+                padding: 0 4rem;
+                .desc1 { 
+                    font-size: 2rem;
+                }
+                .email { 
+                    font-size: 2.4rem;
+                }
+                .hr { 
+                    width: 80%;
+                    height: 1px;
+                    margin: 6.4rem auto 7.1rem auto;
+                }
+                .btn-request {
+                    display: block;
+                    margin: 0 auto;
+                    background: #bd080c;
+                    font-size: 2.5rem;
+                    color: #fff;
+                    font-weight: 600;
+                    padding: 1rem 3rem 1.3rem 3rem;
+                    border-radius: 7rem;
+                }
+                .sns-list { 
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 4rem;
+                    gap: 0;
+                    align-items: center;
+                    li { 
+                        a { 
+                            display: block;
+                            img { 
+                                display: block;
+                                width: 50%;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
