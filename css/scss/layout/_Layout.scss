@@ -4,7 +4,7 @@
     }
     .section1 { 
         position: relative;
-        margin-top: 150px;
+        margin-top: 85px;
         @media screen and (max-width: 768px) {
             margin-top: 60px;
         }
@@ -35,7 +35,7 @@
             }
         }
         .company-explanation { 
-            padding: 7.9rem 2rem 4.1rem 2rem;
+            padding: 6.9rem 2rem 4.1rem 2rem;
             background: #bd080c;
             @media screen and (max-width: 768px) {
                 padding: 4rem 2rem 4rem 2rem;
@@ -49,28 +49,32 @@
                 }
             }
             .h3 { 
-                font-size: 4rem;
+                font-size: 3.5rem;
                 color: #fff;
                 text-align: center;
             }
             .p { 
-                font-size: 2.6rem;
+                font-size: 2rem;
                 color: #fff;
                 text-align: center;
-                margin-top: 5.7rem;
+                margin-top: 2.7rem;
             }
         }
     } // section1
     .section2 { 
         .content { 
             padding: 0 20px;
+            max-width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15rem;
             .box { 
                 position: relative;
                 background: #bd080c;
-                max-width: 82.6rem;
+                // max-width: 82.6rem;
                 border-radius: 8px;
                 margin: 16rem auto 0 auto;
-                padding: 8.1rem 2rem 6.2rem 2rem;
+                padding: 6.1rem 2rem 4.2rem 2rem;
                 margin-top: 5.7rem;
 
                 &:nth-child(2) { 
@@ -78,15 +82,15 @@
                 }
                 .ico-quotes { 
                     position: absolute;
-                    top: -5rem;
+                    top: -4rem;
                     left: 50%;
                     transform: translateX(-50%);
-                    width: 10rem;
+                    width: 8rem;
                 }
                 .p { 
-                    font-size: 4rem;
+                    font-size: 3rem;
                     color: #fff;
-                    line-height: 5.7rem;
+                    line-height: 160%;
                     text-align: center;
                 }
                 @media screen and (max-width: 768px) {
@@ -139,7 +143,7 @@
                 }
             }
             .desc { 
-                font-size: 5.5rem;
+                font-size: 3.5rem;
                 color: #222;
                 font-weight: 700;
                 text-align: center;
@@ -153,6 +157,10 @@
                 gap: 3.2rem;
                 justify-content: center;
                 margin-top: 8.2rem;
+                width: 85%;
+                // max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
                 @media screen and (max-width: 768px) {
                     flex-wrap: wrap;
                     li { 
@@ -169,20 +177,20 @@
                 margin: 0 auto;
             }
             .desc2 { 
-                font-size: 5.5rem;
+                font-size: 3.5rem;
                 font-weight: 700;
                 color: #222;
                 text-align: center;
-                margin-top: 6.8rem;
+                margin-top: 2.8rem;
                 @media screen and (max-width: 768px) {
                     font-size: 3.5rem;
                 }
             }
             .desc3 { 
-                font-size: 3.4rem;
+                font-size: 2.4rem;
                 color: #222;
                 text-align: center;
-                margin-top: 10.9rem;
+                margin-top: 4.9rem;
                 @media screen and (max-width: 768px) {
                     font-size: 2rem;
                     margin-top: 5rem;
@@ -194,8 +202,10 @@
         margin-top: 10rem;
         .content { 
             padding: 0 2rem;
+            // width: 80%;
             max-width: 1160px;
-            margin: 0 auto;
+            margin-left: auto;
+            margin-right: auto;
             .row1 { 
                 display: flex;
                 gap: 7rem;
@@ -216,13 +226,13 @@
                         .label { 
                             display: flex;
                             justify-content: center;
-                            padding-top: 1rem;
+                            padding-top: 0;
                             padding-bottom: 1rem;
-                            font-size: 4.5rem;
+                            font-size: 3rem;
                             line-height: 4rem;
                             color: #fff;
-                            width: 16.3rem;
-                            height: 6.2rem;
+                            width: 12.3rem;
+                            height: 4.2rem;
                             border-radius: 6.2rem;
                             background: #bd080c;
                         }
@@ -234,24 +244,24 @@
                         }
                     }
                     .h3 { 
-                        font-size: 5rem;
+                        font-size: 4rem;
                         color: #bd080c;
                         font-weight: 700;
-                        line-height: 6.2rem;
+                        line-height: 160%;
                         margin-top: 1.9rem;
                     }
                     .p { 
-                        font-size: 2.6rem;
+                        font-size: 2.4rem;
                         color: #231411;
-                        line-height: 4.5rem;
-                        margin-top: 4.5rem;
+                        line-height: 160%;
+                        margin-top: 2.5rem;
                     }
                     .strong {
                         display: block;
-                        font-size: 3.4rem;
+                        font-size: 2.8rem;
                         color: #231411;
-                        line-height: 4.5rem;
-                        margin-top: 4.5rem;
+                        line-height: 160%;
+                        margin-top: 9.5rem;
                         text-align: right;
                         span { 
                             color: #bd080c;
@@ -332,25 +342,25 @@
                         }
                     }
                     .h3 { 
-                        font-size: 5rem;
+                        font-size: 4rem;
                         color: #bd080c;
                         font-weight: 700;
-                        line-height: 6.2rem;
+                        line-height: 160%;
                         margin-top: 1.9rem;
                     }
                     .p { 
-                        font-size: 2.6rem;
+                        font-size: 2.4rem;
                         color: #231411;
-                        line-height: 4.5rem;
-                        margin-top: 4.5rem;
+                        line-height: 160%;
+                        margin-top: 2.5rem;
                         
                     }
                     .strong {
                         display: block;
-                        font-size: 3.4rem;
+                        font-size: 2.8rem;
                         color: #231411;
-                        line-height: 4.5rem;
-                        margin-top: 4.5rem;
+                        line-height: 160%;
+                        margin-top: 9.5rem;
                         text-align: left;
                         span { 
                             color: #bd080c;
@@ -394,7 +404,7 @@
             }
             .ico-quotes2 { 
                 display: block;
-                width: 100px;
+                width: 60px;
                 margin: 18rem auto 0 auto;
                 @media screen and (max-width: 768px) {
                     width: 40px;
@@ -403,8 +413,8 @@
                 }
             }
             .text2 { 
-                margin-top: 4.7rem;
-                font-size: 4.8rem;
+                margin-top: 2.7rem;
+                font-size: 3rem;
                 line-height: 160%;
                 color: #222;
                 text-align: center;
@@ -424,8 +434,8 @@
         margin-top: 8.6rem;
         .content { 
             margin: 12.1rem auto 0 auto;
-            width: 100%; 
-            max-width: 1160px;
+            width: 75%; 
+            // max-width: 1160px;
             padding: 0 2rem;
             @media screen and (max-width: 768px) {
                 margin: 4rem auto 0 auto;
@@ -437,7 +447,7 @@
                     justify-content: space-between;
                     img { 
                         width: 100%;
-                        max-width: 456px;
+                        max-width: 360px;
                     }
                     &:nth-child(2) { 
                         margin-top: 20rem;
@@ -452,13 +462,14 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-size: 8.6rem;
+                    font-size: 5.6rem;
                     line-height: 12.7rem;
                     color: #fff;
                     background: #bd080c;
-                    width: 34.6rem;
+                    width: 22.6rem;
                     aspect-ratio: 1 / 1;
                     border-radius: 100%;
+                    font-weight: 600;
                 }
                 @media screen and (max-width: 768px) {
                     .speech-wrap { 
@@ -477,11 +488,12 @@
                 }
             }
             .desc1 { 
-                font-size: 4.8rem;
+                font-size: 3.5rem;
                 line-height: 160%;
                 color: #222;
                 text-align: center;
-                margin-top: 12.2rem;
+                margin-top: 7.2rem;
+                font-weight: 500;
                 .br-mo { 
                     display: none;
                 }
@@ -498,12 +510,16 @@
             .bar { 
                 display: block;
                 width: 13.8rem;
-                height: 3px;
+                height: 1.5px;
                 background: #646464;
-                margin: 8.6rem auto 0 auto;
+                margin: 5.6rem auto 0 auto;
             }
             .img-desc2 { 
-                margin-top: 11rem;
+                display: block;
+                margin-top: 8rem;
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     } //section4
@@ -514,28 +530,26 @@
             display: flex;
             gap: 12.1rem;
             margin: 12.1rem auto 0 auto;
-            width: 100%; 
-            max-width: 1160px;
+            width: 80%; 
             padding: 0 2rem;
             @media screen and (max-width: 768px) {
                 flex-direction: column;
                 gap: 7.8rem;
                 margin: 6rem auto 0 auto;
-
             }
             .card { 
                 width: 100%;
                 background: #f2f2f2;
                 border-radius: 20px;
-                padding: 6.9rem 2rem 8.7rem 4.5rem;
+                padding: 3.9rem 2rem 4.7rem 4.5rem;
                 .title { 
-                    font-size: 4.5rem;
+                    font-size: 3.5rem;
                     line-height: 3.5rem;
                     color: #222;
                     font-weight: 700;
                 }
                 .info { 
-                    margin-top: 6.6rem;
+                    margin-top: 4.6rem;
                     li { 
                         display: flex;
                         gap: 1.1rem;
@@ -549,19 +563,19 @@
                             margin-top: 1.5rem;
                         }
                         & + li { 
-                            margin-top: 3.8rem;
+                            margin-top: 1.9rem;
                         }
                     }
                     .p { 
                         display: block;
-                        font-size: 2.5rem;
+                        font-size: 2rem;
                         line-height: 3.5rem;
                         color: #222;
                         font-weight: 700;
                     }
                     .span { 
                         display: block;
-                        font-size: 2.3rem;
+                        font-size: 1.8rem;
                         line-height: 3.5rem;
                         color: #222;
                     }
@@ -604,11 +618,11 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 20rem;
+                width: 17rem;
                 aspect-ratio: 1 / 1;
                 border: 1px solid #fff;
                 background: #222222;
-                font-size: 3.6rem;
+                font-size: 2.6rem;
                 font-weight: 600;
                 line-height: 160%;
                 color: #fff;
@@ -629,17 +643,19 @@
         .content { 
             position: relative;
             margin: 17.7rem auto 0 auto;
-            width: 100%; 
-            max-width: 1242px;
+            // width: 100%; 
+            width: 87%;
+            margin-left: auto;
+            margin-right: auto;
             padding: 0 10rem;
             .row { 
                 position: relative;
                 display: flex;
                 align-items: stretch;
                 justify-content: center;
-                gap: 12rem;
+                gap: 6rem;
                 @media screen and (max-width: 768px) {
-                    gap: 8rem;
+                    gap: 4rem;
                 }
                 &:nth-child(2) {
                     margin-top: 8rem;
@@ -648,9 +664,9 @@
                     }
                 }
                 &:nth-child(3) {
-                    margin-top: 14rem;
+                    margin-top: 5rem;
                     @media screen and (max-width: 768px) {
-                        margin-top: 8rem;
+                        margin-top: 3rem;
                     }
                 }
                 .card { 
@@ -683,31 +699,32 @@
 
             .title { 
                 position: relative;
-                font-size: 3.6rem;
+                font-size: 2.6rem;
                 line-height: 3.5rem;
                 color: #fff;
                 font-weight: 700;
                 background: #bd080c;
-                padding: 3.5rem 2rem 3.5rem 6rem;
+                padding: 2rem 1rem 2rem 3rem;
                 border-radius: 20px 20px 0 0;
                 .num { 
                     position: absolute;
-                    top: -6.8rem;
-                    right: -6.8rem;
-                    font-size: 10rem;
+                    top: -2.8rem;
+                    right: -4.8rem;
+                    font-size: 6rem;
+                    font-weight: 600;
                     background: #222222;
-                    width: 13.6rem;
+                    width: 8.6rem;
                     aspect-ratio: 1 / 1;
                     border-radius: 100%;
                     display: flex;
                     justify-content: center;
-                    padding-top: 4.2rem;
+                    padding-top: 2.2rem;
                 }
             }
 
             .info { 
                 border-radius: 0 0 20px 20px;
-                padding: 4.8rem 4.2rem;
+                padding: 2rem 3rem;
                 li { 
                     display: flex;
                     gap: 1.1rem;
@@ -721,19 +738,19 @@
                         margin-top: 1.5rem;
                     }
                     & + li { 
-                        margin-top: 3rem;
+                        margin-top: 1.5rem;
                     }
                 }
                 .p { 
                     display: block;
-                    font-size: 2.4rem;
+                    font-size: 1.6rem;
                     line-height: 160%;
                     color: #222;
                     font-weight: 700;
                 }
                 .span { 
                     display: block;
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
                     line-height: 160%;
                     color: #808080;
                 }
@@ -745,15 +762,16 @@
                 left: calc(50%);
                 transform: translate(-50%, -50%);
                 display: block;
-                width: 5.6rem;
-                height: 4.3rem;
+                width: 2.8rem;
+                height: 2.2rem;
                 &.type2 {
                     transform: rotate(-270deg);
-                    left: calc(100% - 29rem);
+                    left: calc(100% - 22.5rem);
+                    top: -2rem;
                 }  
                 &.type3 { 
                     transform: rotate(-540deg);
-                    left: calc(50% - 2.5rem);
+                    left: calc(50% - 1.8rem);
                 }
             }
             @media screen and (max-width: 768px) {
@@ -796,7 +814,7 @@
         }
         .ico-feedback { 
             display: block;
-            width: 114px;
+            width: 60px;
             position: absolute;
             top: calc(50% - 30px) ;
             left: 50%;
@@ -815,6 +833,9 @@
                 grid-template-columns: repeat(3, 1fr);
                 gap: 2.2rem;
                 margin-top: 11.2rem;
+                width: 87%;
+                margin-left: auto;
+                margin-right: auto;
             }
             .img-section7 { 
                 display: block;
@@ -834,15 +855,14 @@
     .section8 { 
         margin-top: 100px;
         .content { 
-            width: 100%;
-            max-width: 930px;
+            width: 60%;
             margin: 11.6rem auto 0 auto;
             padding: 0 20px;
             .img-desc3-mo { 
                 display: none;
             }
             .info { 
-                margin-top: 14.2rem;
+                margin-top: 9rem;
                 li { 
                     display: flex;
                     align-items: center;
@@ -862,7 +882,7 @@
                         }
                     }
                     .p { 
-                        font-size: 3.6rem;
+                        font-size: 2.5rem;
                         color: #222;
                         font-weight: 700;
                     }
@@ -893,8 +913,8 @@
         }
         .profile { 
             background: #dddddd;
-            padding-top: 5.6rem;
-            padding-bottom: 7.7rem;
+            padding-top: 4.6rem;
+            padding-bottom: 5.7rem;
             margin-top: 12rem;
             @media screen and (max-width: 768px) {
                 margin-top: 8rem;

@@ -279,10 +279,13 @@
     z-index: 100;
   }
   .header .row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 150px;
+    height: 85px;
     background: #fff;
-    padding: 3.2rem 2rem 4.1rem 2rem;
+    padding: 0 2rem 0 2rem;
   }
   @media screen and (max-width: 768px) {
     .header .row1 {
@@ -297,7 +300,7 @@
   }
   .header .row1 img {
     display: block;
-    width: 273px;
+    width: 200px;
     margin: 0 auto;
   }
   .header .nav {
@@ -305,7 +308,7 @@
     height: 8rem;
   }
   .header .nav ul {
-    height: 8rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     gap: 0 5rem;
@@ -314,7 +317,7 @@
   }
   .header .nav ul li a {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   @media screen and (max-width: 768px) {
     .header .nav ul {
@@ -331,7 +334,7 @@
   }
   .section1 {
     position: relative;
-    margin-top: 150px;
+    margin-top: 85px;
   }
   @media screen and (max-width: 768px) {
     .section1 {
@@ -365,7 +368,7 @@
     margin: 4.9rem auto 0 auto;
   }
   .section1 .company-explanation {
-    padding: 7.9rem 2rem 4.1rem 2rem;
+    padding: 6.9rem 2rem 4.1rem 2rem;
     background: #bd080c;
   }
   @media screen and (max-width: 768px) {
@@ -381,26 +384,29 @@
     }
   }
   .section1 .company-explanation .h3 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #fff;
     text-align: center;
   }
   .section1 .company-explanation .p {
-    font-size: 2.6rem;
+    font-size: 2rem;
     color: #fff;
     text-align: center;
-    margin-top: 5.7rem;
+    margin-top: 2.7rem;
   }
   .section2 .content {
     padding: 0 20px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
   }
   .section2 .content .box {
     position: relative;
     background: #bd080c;
-    max-width: 82.6rem;
     border-radius: 8px;
     margin: 16rem auto 0 auto;
-    padding: 8.1rem 2rem 6.2rem 2rem;
+    padding: 6.1rem 2rem 4.2rem 2rem;
     margin-top: 5.7rem;
   }
   .section2 .content .box:nth-child(2) {
@@ -408,15 +414,15 @@
   }
   .section2 .content .box .ico-quotes {
     position: absolute;
-    top: -5rem;
+    top: -4rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 10rem;
+    width: 8rem;
   }
   .section2 .content .box .p {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
-    line-height: 5.7rem;
+    line-height: 160%;
     text-align: center;
   }
   @media screen and (max-width: 768px) {
@@ -472,7 +478,7 @@
     }
   }
   .section2 .content .desc {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     color: #222;
     font-weight: 700;
     text-align: center;
@@ -488,6 +494,9 @@
     gap: 3.2rem;
     justify-content: center;
     margin-top: 8.2rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
   }
   @media screen and (max-width: 768px) {
     .section2 .content .list-type1 {
@@ -506,11 +515,11 @@
     margin: 0 auto;
   }
   .section2 .content .desc2 {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: #222;
     text-align: center;
-    margin-top: 6.8rem;
+    margin-top: 2.8rem;
   }
   @media screen and (max-width: 768px) {
     .section2 .content .desc2 {
@@ -518,10 +527,10 @@
     }
   }
   .section2 .content .desc3 {
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     color: #222;
     text-align: center;
-    margin-top: 10.9rem;
+    margin-top: 4.9rem;
   }
   @media screen and (max-width: 768px) {
     .section2 .content .desc3 {
@@ -535,7 +544,8 @@
   .section3 .content {
     padding: 0 2rem;
     max-width: 1160px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .section3 .content .row1 {
     display: flex;
@@ -559,13 +569,13 @@
   .section3 .content .row1 .text .label-wrap .label {
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 0;
     padding-bottom: 1rem;
-    font-size: 4.5rem;
+    font-size: 3rem;
     line-height: 4rem;
     color: #fff;
-    width: 16.3rem;
-    height: 6.2rem;
+    width: 12.3rem;
+    height: 4.2rem;
     border-radius: 6.2rem;
     background: #bd080c;
   }
@@ -576,24 +586,24 @@
     width: 100%;
   }
   .section3 .content .row1 .text .h3 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #bd080c;
     font-weight: 700;
-    line-height: 6.2rem;
+    line-height: 160%;
     margin-top: 1.9rem;
   }
   .section3 .content .row1 .text .p {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     color: #231411;
-    line-height: 4.5rem;
-    margin-top: 4.5rem;
+    line-height: 160%;
+    margin-top: 2.5rem;
   }
   .section3 .content .row1 .text .strong {
     display: block;
-    font-size: 3.4rem;
+    font-size: 2.8rem;
     color: #231411;
-    line-height: 4.5rem;
-    margin-top: 4.5rem;
+    line-height: 160%;
+    margin-top: 9.5rem;
     text-align: right;
   }
   .section3 .content .row1 .text .strong span {
@@ -672,24 +682,24 @@
     width: 100%;
   }
   .section3 .content .row2 .text .h3 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #bd080c;
     font-weight: 700;
-    line-height: 6.2rem;
+    line-height: 160%;
     margin-top: 1.9rem;
   }
   .section3 .content .row2 .text .p {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     color: #231411;
-    line-height: 4.5rem;
-    margin-top: 4.5rem;
+    line-height: 160%;
+    margin-top: 2.5rem;
   }
   .section3 .content .row2 .text .strong {
     display: block;
-    font-size: 3.4rem;
+    font-size: 2.8rem;
     color: #231411;
-    line-height: 4.5rem;
-    margin-top: 4.5rem;
+    line-height: 160%;
+    margin-top: 9.5rem;
     text-align: left;
   }
   .section3 .content .row2 .text .strong span {
@@ -731,7 +741,7 @@
   }
   .section3 .content .ico-quotes2 {
     display: block;
-    width: 100px;
+    width: 60px;
     margin: 18rem auto 0 auto;
   }
   @media screen and (max-width: 768px) {
@@ -741,8 +751,8 @@
     }
   }
   .section3 .content .text2 {
-    margin-top: 4.7rem;
-    font-size: 4.8rem;
+    margin-top: 2.7rem;
+    font-size: 3rem;
     line-height: 160%;
     color: #222;
     text-align: center;
@@ -763,8 +773,7 @@
   }
   .section4 .content {
     margin: 12.1rem auto 0 auto;
-    width: 100%;
-    max-width: 1160px;
+    width: 75%;
     padding: 0 2rem;
   }
   @media screen and (max-width: 768px) {
@@ -781,7 +790,7 @@
   }
   .section4 .content .row1 .speech-wrap img {
     width: 100%;
-    max-width: 456px;
+    max-width: 360px;
   }
   .section4 .content .row1 .speech-wrap:nth-child(2) {
     margin-top: 20rem;
@@ -794,13 +803,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 8.6rem;
+    font-size: 5.6rem;
     line-height: 12.7rem;
     color: #fff;
     background: #bd080c;
-    width: 34.6rem;
+    width: 22.6rem;
     aspect-ratio: 1/1;
     border-radius: 100%;
+    font-weight: 600;
   }
   @media screen and (max-width: 768px) {
     .section4 .content .row1 .speech-wrap {
@@ -818,11 +828,12 @@
     }
   }
   .section4 .content .desc1 {
-    font-size: 4.8rem;
+    font-size: 3.5rem;
     line-height: 160%;
     color: #222;
     text-align: center;
-    margin-top: 12.2rem;
+    margin-top: 7.2rem;
+    font-weight: 500;
   }
   .section4 .content .desc1 .br-mo {
     display: none;
@@ -840,12 +851,16 @@
   .section4 .content .bar {
     display: block;
     width: 13.8rem;
-    height: 3px;
+    height: 1.5px;
     background: #646464;
-    margin: 8.6rem auto 0 auto;
+    margin: 5.6rem auto 0 auto;
   }
   .section4 .content .img-desc2 {
-    margin-top: 11rem;
+    display: block;
+    margin-top: 8rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .section5 {
     margin-top: 10rem;
@@ -855,8 +870,7 @@
     display: flex;
     gap: 12.1rem;
     margin: 12.1rem auto 0 auto;
-    width: 100%;
-    max-width: 1160px;
+    width: 80%;
     padding: 0 2rem;
   }
   @media screen and (max-width: 768px) {
@@ -870,16 +884,16 @@
     width: 100%;
     background: #f2f2f2;
     border-radius: 20px;
-    padding: 6.9rem 2rem 8.7rem 4.5rem;
+    padding: 3.9rem 2rem 4.7rem 4.5rem;
   }
   .section5 .content .card .title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 3.5rem;
     color: #222;
     font-weight: 700;
   }
   .section5 .content .card .info {
-    margin-top: 6.6rem;
+    margin-top: 4.6rem;
   }
   .section5 .content .card .info li {
     display: flex;
@@ -895,18 +909,18 @@
     margin-top: 1.5rem;
   }
   .section5 .content .card .info li + li {
-    margin-top: 3.8rem;
+    margin-top: 1.9rem;
   }
   .section5 .content .card .info .p {
     display: block;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 3.5rem;
     color: #222;
     font-weight: 700;
   }
   .section5 .content .card .info .span {
     display: block;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     line-height: 3.5rem;
     color: #222;
   }
@@ -944,11 +958,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20rem;
+    width: 17rem;
     aspect-ratio: 1/1;
     border: 1px solid #fff;
     background: #222222;
-    font-size: 3.6rem;
+    font-size: 2.6rem;
     font-weight: 600;
     line-height: 160%;
     color: #fff;
@@ -972,8 +986,9 @@
   .section6 .content {
     position: relative;
     margin: 17.7rem auto 0 auto;
-    width: 100%;
-    max-width: 1242px;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 10rem;
   }
   .section6 .content .row {
@@ -981,11 +996,11 @@
     display: flex;
     align-items: stretch;
     justify-content: center;
-    gap: 12rem;
+    gap: 6rem;
   }
   @media screen and (max-width: 768px) {
     .section6 .content .row {
-      gap: 8rem;
+      gap: 4rem;
     }
   }
   .section6 .content .row:nth-child(2) {
@@ -997,11 +1012,11 @@
     }
   }
   .section6 .content .row:nth-child(3) {
-    margin-top: 14rem;
+    margin-top: 5rem;
   }
   @media screen and (max-width: 768px) {
     .section6 .content .row:nth-child(3) {
-      margin-top: 8rem;
+      margin-top: 3rem;
     }
   }
   .section6 .content .row .card {
@@ -1029,30 +1044,31 @@
   }
   .section6 .content .title {
     position: relative;
-    font-size: 3.6rem;
+    font-size: 2.6rem;
     line-height: 3.5rem;
     color: #fff;
     font-weight: 700;
     background: #bd080c;
-    padding: 3.5rem 2rem 3.5rem 6rem;
+    padding: 2rem 1rem 2rem 3rem;
     border-radius: 20px 20px 0 0;
   }
   .section6 .content .title .num {
     position: absolute;
-    top: -6.8rem;
-    right: -6.8rem;
-    font-size: 10rem;
+    top: -2.8rem;
+    right: -4.8rem;
+    font-size: 6rem;
+    font-weight: 600;
     background: #222222;
-    width: 13.6rem;
+    width: 8.6rem;
     aspect-ratio: 1/1;
     border-radius: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 4.2rem;
+    padding-top: 2.2rem;
   }
   .section6 .content .info {
     border-radius: 0 0 20px 20px;
-    padding: 4.8rem 4.2rem;
+    padding: 2rem 3rem;
   }
   .section6 .content .info li {
     display: flex;
@@ -1068,18 +1084,18 @@
     margin-top: 1.5rem;
   }
   .section6 .content .info li + li {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
   }
   .section6 .content .info .p {
     display: block;
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     line-height: 160%;
     color: #222;
     font-weight: 700;
   }
   .section6 .content .info .span {
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 160%;
     color: #808080;
   }
@@ -1089,16 +1105,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    width: 5.6rem;
-    height: 4.3rem;
+    width: 2.8rem;
+    height: 2.2rem;
   }
   .section6 .content .ico-arrow.type2 {
     transform: rotate(-270deg);
-    left: calc(100% - 29rem);
+    left: calc(100% - 22.5rem);
+    top: -2rem;
   }
   .section6 .content .ico-arrow.type3 {
     transform: rotate(-540deg);
-    left: calc(50% - 2.5rem);
+    left: calc(50% - 1.8rem);
   }
   @media screen and (max-width: 768px) {
     .section6 .content {
@@ -1139,7 +1156,7 @@
   }
   .section6 .ico-feedback {
     display: block;
-    width: 114px;
+    width: 60px;
     position: absolute;
     top: calc(50% - 30px);
     left: 50%;
@@ -1159,6 +1176,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.2rem;
     margin-top: 11.2rem;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .section7 .content .img-section7 {
     display: block;
@@ -1177,8 +1197,7 @@
     margin-top: 100px;
   }
   .section8 .content {
-    width: 100%;
-    max-width: 930px;
+    width: 60%;
     margin: 11.6rem auto 0 auto;
     padding: 0 20px;
   }
@@ -1186,7 +1205,7 @@
     display: none;
   }
   .section8 .content .info {
-    margin-top: 14.2rem;
+    margin-top: 9rem;
   }
   .section8 .content .info li {
     display: flex;
@@ -1209,7 +1228,7 @@
     }
   }
   .section8 .content .info li .p {
-    font-size: 3.6rem;
+    font-size: 2.5rem;
     color: #222;
     font-weight: 700;
   }
@@ -1238,8 +1257,8 @@
   }
   .section8 .profile {
     background: #dddddd;
-    padding-top: 5.6rem;
-    padding-bottom: 7.7rem;
+    padding-top: 4.6rem;
+    padding-bottom: 5.7rem;
     margin-top: 12rem;
   }
   @media screen and (max-width: 768px) {
@@ -1325,36 +1344,36 @@
     display: block;
     margin: 0 auto;
     background: #bd080c;
-    font-size: 3.4rem;
-    color: #fff;
-    font-weight: 600;
-    padding: 2rem 5rem;
-    border-radius: 7rem;
-  }
-  .footer .content .desc1 {
     font-size: 2.4rem;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 1.2rem 4rem 1.5rem 4rem;
+    border-radius: 3.5rem;
+  }
+  .footer .content .desc1 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
     text-align: center;
   }
   .footer .content .desc1.mt65 {
-    margin-top: 6.5rem;
+    margin-top: 3.5rem;
   }
   .footer .content .email {
     display: block;
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     margin-top: 1rem;
   }
   .footer .content .hr {
     display: block;
     width: 100%;
-    height: 3px;
+    height: 1.5px;
     background: #515151;
-    margin-top: 6.4rem;
-    margin-bottom: 7.1rem;
+    margin-top: 3.4rem;
+    margin-bottom: 4rem;
   }
   .footer .content h3 {
     font-size: 2.4rem;
@@ -1366,8 +1385,11 @@
     display: flex;
     justify-content: center;
     margin-top: 4rem;
-    gap: 4rem;
+    gap: 2rem;
     align-items: center;
+  }
+  .footer .content .sns-list img {
+    width: 80%;
   }
   @media screen and (max-width: 768px) {
     .footer .content {

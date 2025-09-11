@@ -11,36 +11,36 @@
                 display: block;
                 margin: 0 auto;
                 background: #bd080c;
-                font-size: 3.4rem;
-                color: #fff;
-                font-weight: 600;
-                padding: 2rem 5rem;
-                border-radius: 7rem;
-            }
-            .desc1 { 
                 font-size: 2.4rem;
                 color: #fff;
-                font-weight: 600;
+                font-weight: 500;
+                padding: 1.2rem 4rem 1.5rem 4rem;
+                border-radius: 3.5rem;
+            }
+            .desc1 { 
+                font-size: 2rem;
+                color: #fff;
+                font-weight: 500;
                 text-align: center;
                 &.mt65 { 
-                    margin-top: 6.5rem;
+                    margin-top: 3.5rem;
                 }
             }
             .email { 
                 display: block;
-                font-size: 2.4rem;
+                font-size: 2rem;
                 color: #fff;
-                font-weight: 600;
+                font-weight: 500;
                 text-align: center;
                 margin-top: 1rem;
             }
             .hr { 
                 display: block;
                 width: 100%;
-                height: 3px;
+                height: 1.5px;
                 background: #515151;
-                margin-top: 6.4rem;
-                margin-bottom: 7.1rem;
+                margin-top: 3.4rem;
+                margin-bottom: 4rem;
             }
             h3 { 
                 font-size: 2.4rem;
@@ -52,8 +52,11 @@
                 display: flex;
                 justify-content: center;
                 margin-top: 4rem;
-                gap: 4rem;
+                gap: 2rem;
                 align-items: center;
+                img { 
+                    width: 80%;
+                }
             }
             
         }
