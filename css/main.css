@@ -336,36 +336,17 @@
     position: relative;
     margin-top: 85px;
   }
+  .section1 .visual-text {
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   @media screen and (max-width: 768px) {
     .section1 {
       margin-top: 60px;
     }
-  }
-  .section1 .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .section1 .text .title {
-    max-width: 75.9rem;
-  }
-  .section1 .text .desc {
-    display: block;
-    max-width: 63.9rem;
-    margin: 5.6rem auto 0 auto;
-  }
-  .section1 .text .bar {
-    display: block;
-    width: 2px;
-    height: 51px;
-    background: #fff;
-    margin: 5.1rem auto 0 auto;
-  }
-  .section1 .text .trading {
-    display: block;
-    max-width: 18.2rem;
-    margin: 4.9rem auto 0 auto;
   }
   .section1 .company-explanation {
     padding: 6.9rem 2rem 4.1rem 2rem;
@@ -393,6 +374,9 @@
     color: #fff;
     text-align: center;
     margin-top: 2.7rem;
+  }
+  .section2 {
+    position: relative;
   }
   .section2 .content {
     padding: 0 20px;
@@ -1324,6 +1308,17 @@
     .visual {
       display: none;
     }
+  }
+  .visual-wrap {
+    position: relative;
+  }
+  .visual-wrap .visual-text {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
   }
   .visual-mo {
     display: none;

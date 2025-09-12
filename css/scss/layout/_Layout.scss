@@ -5,34 +5,15 @@
     .section1 { 
         position: relative;
         margin-top: 85px;
-        @media screen and (max-width: 768px) {
-            margin-top: 60px;
-        }
-        .text { 
+        .visual-text { 
+            width: 40%;
             position: absolute;
-            top: 50%;
+            top: 35%;
             left: 50%;
             transform: translate(-50%, -50%);
-            .title { 
-                max-width: 75.9rem;
-            }
-            .desc { 
-                display: block;
-                max-width: 63.9rem;
-                margin: 5.6rem auto 0 auto;
-            }
-            .bar { 
-                display: block;
-                width: 2px;
-                height: 51px;
-                background: #fff;
-                margin: 5.1rem auto 0 auto;
-            }
-            .trading { 
-                display: block;
-                max-width: 18.2rem;
-                margin: 4.9rem auto 0 auto;
-            }
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 60px;
         }
         .company-explanation { 
             padding: 6.9rem 2rem 4.1rem 2rem;
@@ -62,6 +43,8 @@
         }
     } // section1
     .section2 { 
+        position: relative;
+
         .content { 
             padding: 0 20px;
             max-width: 60%;
@@ -977,6 +960,17 @@
       @media screen and (max-width: 768px) {
           display: none;
       }
+    }
+    .visual-wrap { 
+        position: relative;
+        .visual-text { 
+            width: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100;
+        }
     }
     .visual-mo { 
         display: none;
