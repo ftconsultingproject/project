@@ -16,7 +16,7 @@
             margin-top: 60px;
         }
         .company-explanation { 
-            padding: 6.9rem 2rem 4.1rem 2rem;
+            padding: 6.9rem 2rem 19rem 2rem;
             background: #bd080c;
             @media screen and (max-width: 768px) {
                 padding: 4rem 2rem 4rem 2rem;
@@ -711,7 +711,7 @@
                 color: #fff;
                 font-weight: 700;
                 background: #bd080c;
-                padding: 2rem 1rem 3rem 3rem;
+                padding: 2rem 1rem 2rem 3rem;
                 border-radius: 20px 20px 0 0;
                 .num { 
                     position: absolute;
@@ -773,7 +773,7 @@
                 height: 2.2rem;
                 &.type2 {
                     transform: rotate(-270deg);
-                    left: calc(100% - 28.5rem);
+                    left: calc(100% - 30.5rem);
                     top: -7rem;
                 }  
                 &.type3 { 
