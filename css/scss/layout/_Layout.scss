@@ -51,10 +51,14 @@
             margin-left: auto;
             margin-right: auto;
             margin-top: 15rem;
+            @media screen and (max-width: 768px) {
+                max-width: 100%;
+                margin-top: 5rem;
+
+            }
             .box { 
                 position: relative;
                 background: #bd080c;
-                // max-width: 82.6rem;
                 border-radius: 8px;
                 margin: 16rem auto 0 auto;
                 padding: 6.1rem 2rem 4.2rem 2rem;
@@ -77,8 +81,7 @@
                     text-align: center;
                 }
                 @media screen and (max-width: 768px) {
-                        
-                    padding: 5rem 2rem 4rem 2rem;
+                    padding: 4rem 2rem 3rem 2rem;
                     &:nth-child(2) { 
                         margin: 5rem auto 0 auto;
                     }
@@ -88,8 +91,8 @@
 
                     }
                     .p { 
-                        font-size: 2.5rem;
-                        line-height: 4.5rem;
+                        font-size: 2rem;
+                        line-height: 160%;
                         br { 
                             display: none;
                         }
@@ -418,8 +421,10 @@
         .content { 
             margin: 12.1rem auto 0 auto;
             width: 75%; 
-            // max-width: 1160px;
             padding: 0 2rem;
+            @media screen and (max-width: 1200px) {
+                width: 100%; 
+            }
             @media screen and (max-width: 768px) {
                 margin: 4rem auto 0 auto;
             }
@@ -516,8 +521,9 @@
             width: 80%; 
             padding: 0 2rem;
             @media screen and (max-width: 768px) {
+                width: 100%; 
                 flex-direction: column;
-                gap: 7.8rem;
+                gap: 8.2rem;
                 margin: 6rem auto 0 auto;
             }
             .card { 
@@ -525,6 +531,10 @@
                 background: #f2f2f2;
                 border-radius: 20px;
                 padding: 3.9rem 2rem 4.7rem 4.5rem;
+            @media screen and (max-width: 768px) {
+                min-height: 450px;
+                
+            }
                 .title { 
                     font-size: 3.5rem;
                     line-height: 3.5rem;
@@ -616,7 +626,7 @@
                     width: 18rem;
                 }
                 @media screen and (max-width: 768px) {
-                    top: calc(50% - 6rem);
+                    top: calc(50% - 3rem);
                 }
             }
         }
@@ -626,7 +636,6 @@
         .content { 
             position: relative;
             margin: 17.7rem auto 0 auto;
-            // width: 100%; 
             width: 87%;
             margin-left: auto;
             margin-right: auto;
@@ -638,12 +647,12 @@
                 justify-content: center;
                 gap: 6rem;
                 @media screen and (max-width: 768px) {
-                    gap: 4rem;
+                    gap: 8rem;
                 }
                 &:nth-child(2) {
                     margin-top: 8rem;
                     @media screen and (max-width: 768px) {
-                        margin-top: 0;
+                        margin-top: 5rem;
                     }
                 }
                 &:nth-child(3) {
@@ -758,6 +767,7 @@
                 }
             }
             @media screen and (max-width: 768px) {
+                width: 100%;
                 padding: 0 5rem;
                 margin: 5rem auto 0 auto;
                 .row { 
@@ -819,6 +829,9 @@
                 width: 87%;
                 margin-left: auto;
                 margin-right: auto;
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                }
             }
             .img-section7 { 
                 display: block;
@@ -841,6 +854,9 @@
             width: 60%;
             margin: 11.6rem auto 0 auto;
             padding: 0 20px;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
             .img-desc3 { 
                 display: block;
                 width: 80%;
@@ -956,11 +972,39 @@
             }
         }
     }
-    .visual { 
+    .visual,
+    .visual-text { 
       @media screen and (max-width: 768px) {
           display: none;
       }
     }
+    .visual-mo,
+    .visual-mo-text {
+        display: none;
+        @media screen and (max-width: 768px) {
+          display: block;
+        }
+    }
+        @media screen and (max-width: 768px) {
+            .section1 { 
+                .visual-mo-text { 
+                    width: 60%;
+                    position: absolute;
+                    top: 40%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .visual-mo-text { 
+                width: 80%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        
+        }
+
     .visual-wrap { 
         position: relative;
         .visual-text { 
@@ -969,13 +1013,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            // z-index: 100;
         }
-    }
-    .visual-mo { 
-        display: none;
-        @media screen and (max-width: 768px) {
-            display: block;
-        }
+
     }
 }
