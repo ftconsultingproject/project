@@ -360,7 +360,7 @@
       font-size: 3rem !important;
     }
     .section1 .company-explanation .p {
-      font-size: 1.8rem !important;
+      font-size: 2.5vw !important;
       margin-top: 2rem !important;
     }
   }
@@ -427,7 +427,7 @@
       top: -2.5rem;
     }
     .section2 .content .box .p {
-      font-size: 2rem;
+      font-size: 3vw;
       line-height: 160%;
     }
     .section2 .content .box .p br {
@@ -506,7 +506,7 @@
     margin: 0 auto;
   }
   .section2 .content .desc2 {
-    font-size: 3.5rem;
+    font-size: 7vw;
     font-weight: 700;
     color: #222;
     text-align: center;
@@ -518,14 +518,14 @@
     }
   }
   .section2 .content .desc3 {
-    font-size: 2.4rem;
+    font-size: 7vw;
     color: #222;
     text-align: center;
     margin-top: 4.9rem;
   }
   @media screen and (max-width: 768px) {
     .section2 .content .desc3 {
-      font-size: 2rem;
+      font-size: 4vw;
       margin-top: 5rem;
     }
   }
@@ -1039,7 +1039,7 @@
   }
   @media screen and (max-width: 768px) {
     .section6 .content .row:nth-child(3) {
-      margin-top: 3rem;
+      margin-top: 8rem;
     }
   }
   .section6 .content .row .card {
@@ -1122,6 +1122,11 @@
     line-height: 160%;
     color: #808080;
   }
+  @media screen and (max-width: 768px) {
+    .section6 .content .info .span {
+      font-size: 2.5vw;
+    }
+  }
   .section6 .content .ico-arrow {
     position: absolute;
     top: 50%;
@@ -1164,7 +1169,7 @@
       aspect-ratio: 1/0.7799;
     }
     .section6 .content .info .p {
-      font-size: 2rem;
+      font-size: 3vw;
     }
     .section6 .content .ico-feedback {
       display: none;
@@ -1460,10 +1465,10 @@
       padding: 0 4rem;
     }
     .footer .content .desc1 {
-      font-size: 2rem;
+      font-size: 3.5vw;
     }
     .footer .content .email {
-      font-size: 2.4rem;
+      font-size: 3.5vw;
     }
     .footer .content .hr {
       width: 80%;

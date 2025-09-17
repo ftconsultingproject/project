@@ -24,7 +24,7 @@
                     font-size: 3rem !important;
                 }
                 .p { 
-                    font-size: 1.8rem !important;
+                    font-size: 2.5vw !important;
                     margin-top: 2rem !important;
 
                 }
@@ -92,7 +92,7 @@
 
                     }
                     .p { 
-                        font-size: 2rem;
+                        font-size: 3vw;
                         line-height: 160%;
                         br { 
                             display: none;
@@ -164,7 +164,7 @@
                 margin: 0 auto;
             }
             .desc2 { 
-                font-size: 3.5rem;
+                font-size: 7vw;
                 font-weight: 700;
                 color: #222;
                 text-align: center;
@@ -174,12 +174,12 @@
                 }
             }
             .desc3 { 
-                font-size: 2.4rem;
+                font-size: 7vw;
                 color: #222;
                 text-align: center;
                 margin-top: 4.9rem;
                 @media screen and (max-width: 768px) {
-                    font-size: 2rem;
+                    font-size: 4vw;
                     margin-top: 5rem;
                 }
             }
@@ -677,7 +677,7 @@
                 &:nth-child(3) {
                     margin-top: 12rem;
                     @media screen and (max-width: 768px) {
-                        margin-top: 3rem;
+                        margin-top: 8rem;
                     }
                 }
 
@@ -764,6 +764,9 @@
                     font-size: 1.6rem;
                     line-height: 160%;
                     color: #808080;
+                    @media screen and (max-width: 768px) {
+                        font-size: 2.5vw;
+                    }
                 }
             }
 
@@ -811,7 +814,7 @@
                     padding: 2.5rem 2rem 3rem 2rem;
                     aspect-ratio: 1 / 0.7799;
                     .p { 
-                        font-size: 2rem;
+                        font-size: 3vw;
                     }
                 }
                 .ico-feedback { 
