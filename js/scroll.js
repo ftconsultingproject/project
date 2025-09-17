@@ -9,7 +9,7 @@
 
                 if (targetElement) {
                     // 화면 크기에 따라 offset 값 다르게 설정
-                    const offset = window.innerWidth <= 768 ? -50 : -150;
+                    const offset = window.innerWidth <= 768 ? -50 : -80;
 
                     const elementPosition = targetElement.getBoundingClientRect().top;
                     const offsetPosition = elementPosition + window.pageYOffset + offset;
